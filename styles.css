@@ -4,11 +4,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  touch-action: manipulation;
+  touch-action: none;
 }
 
 .counter {
-  font-size: 42px;
+  font-size: 100px;
   font-weight: bold;
   user-select: none;
 }
