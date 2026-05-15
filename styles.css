@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family:
     system-ui,
@@ -20,7 +24,6 @@ body {
   align-items: center;
   touch-action: none;
   user-select: none;
-  color: blue;
 }
 
 .prayer {
@@ -28,6 +31,7 @@ body {
   font-size: 2rem;
   direction: rtl;
   text-align: center;
+  padding: 0 12px;
 }
 
 .counter {
