@@ -15,11 +15,12 @@ body {
   height: 100vh;
   margin: 0;
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   touch-action: none;
   user-select: none;
+  color: blue;
 }
 
 .prayer {
