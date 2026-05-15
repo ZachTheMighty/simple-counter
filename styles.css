@@ -26,12 +26,17 @@ body {
   user-select: none;
 }
 
-.prayer {
+.prayer,
+.congrats {
   width: 100vw;
   font-size: 2rem;
   direction: rtl;
   text-align: center;
   padding: 0 12px;
+}
+
+.prayer + .prayer {
+  display: none;
 }
 
 .counter {
