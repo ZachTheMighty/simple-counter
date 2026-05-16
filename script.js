@@ -4,6 +4,8 @@ let prayers = document.querySelectorAll(".prayer");
 
 let i = 0;
 body.addEventListener("click", () => {
+  if (i === prayers.length + 1) window.location.href = "index.html";
+
   counter.textContent = ++counter.textContent;
 
   while (i < prayers.length) {
